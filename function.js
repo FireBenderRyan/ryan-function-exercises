@@ -15,12 +15,14 @@ var returnThisVar = 'Var returned!';
 var returnVar = function(){
 	return returnThisVar;
 }
- 
+ returnVar();
 //4. Create a function called addVars that adds the values of valueOne and valueTwo
 var valueOne = 5;
 var valueTwo = 5; 
-
-
+var addVars = function(){
+	return (valueOne + valueTwo)
+}
+addVars();
 //5. Create a function called addNums that adds 34 and firstVal
 var firstVal = 10;
 
