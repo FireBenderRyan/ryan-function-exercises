@@ -25,8 +25,10 @@ var addVars = function(){
 addVars();
 //5. Create a function called addNums that adds 34 and firstVal
 var firstVal = 10;
-
-
+var addNums = function(){
+	return (firstVal + 34)
+}
+addNums();
 //6. Create a function called subtractNums that subtracts 34 and firstVal
 
 
