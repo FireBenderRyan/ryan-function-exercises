@@ -30,5 +30,7 @@ var addNums = function(){
 }
 addNums();
 //6. Create a function called subtractNums that subtracts 34 and firstVal
-
-
+var subtractNums = function(){
+	return (34 - firstVal)
+}
+subtractNums();
