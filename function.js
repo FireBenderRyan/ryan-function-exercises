@@ -7,8 +7,7 @@ threeMinusTwo();
 
 //2. Create a function called returnString that returns a string
 var returnString = function(){
-	var String1 = 'string'
-	return String1
+	return 'string'
 }
 returnString();
 //3. Create a function called returnVar that returns the returnThisVar variable
