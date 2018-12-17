@@ -1,18 +1,19 @@
 //your code here
 //1. Create a function called threeMinusTwo that returns the difference of 3 - 2
 var threeMinusTwo = function(){
-	var signal = '3-2'
-	return signal
+	return (3 - 2)
 }
+threeMinusTwo();
 
 //2. Create a function called returnString that returns a string
 var returnString = function(){
-	return 'string'
+	var String1 = 'string'
+	return String1
 }
-
+returnString();
 //3. Create a function called returnVar that returns the returnThisVar variable
 var returnThisVar = 'Var returned!';
-var rerurnVar = function(){
+var returnVar = function(){
 	return returnThisVar;
 }
  
